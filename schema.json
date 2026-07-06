@@ -1,0 +1,25 @@
+{
+  "$comment": "CHANDRASITE shared data contract v0.1 — agree changes with Vaishali and Anika before editing. Every pipeline stage writes into this shape; the dashboard (app.py) only reads it.",
+  "ice_deposits": [
+    {
+      "id": "int — unique deposit id",
+      "area_m2": "float — estimated surface area in square meters",
+      "confidence": "float 0-1 — fused Bayesian confidence score",
+      "centroid": "[lat, lon] — deposit centroid in degrees",
+      "cpr_mean": "float — mean circular polarization ratio (Mini-RF)",
+      "dop_mean": "float — mean degree of polarization (supporting radar metric)"
+    }
+  ],
+  "landing_site": {
+    "coordinates": "[lat, lon] — proposed landing coordinates in degrees",
+    "safety_score": "int 0-100 — composite landing safety score",
+    "halo_risk": "bool — true if within crater-rim illumination halo risk zone"
+  },
+  "rover_path": {
+    "waypoints": "[[lat, lon], ...] — ordered traverse waypoints",
+    "total_distance_m": "float — total traverse distance in meters",
+    "battery_at_rim_pct": "float — predicted battery percentage on return to rim",
+    "charging_waypoint": "[lat, lon] — location of solar/RHU charging stop",
+    "feasibility_score": "float 0-1 — overall traverse feasibility score"
+  }
+}
