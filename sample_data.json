@@ -1,0 +1,39 @@
+{
+  "ice_deposits": [
+    {
+      "id": 1,
+      "area_m2": 8640,
+      "confidence": 0.87,
+      "centroid": [-89.25,45.32],
+      "cpr_mean": 0.93,
+      "dop_mean": 0.09
+    },
+    {
+      "id": 2,
+      "area_m2": 5120,
+      "confidence": 0.79,
+      "centroid": [-89.31,45.80],
+      "cpr_mean": 0.91,
+      "dop_mean": 0.11
+    }
+  ],
+
+  "landing_site":{
+    "coordinates":[-89.28,45.42],
+    "safety_score":91,
+    "halo_risk":false
+  },
+
+  "rover_path":{
+    "waypoints":[
+      [-89.28,45.42],
+      [-89.27,45.55],
+      [-89.25,45.60]
+    ],
+
+    "total_distance_m":1240,
+    "battery_at_rim_pct":94,
+    "charging_waypoint":[-89.26,45.50],
+    "feasibility_score":0.87
+  }
+}

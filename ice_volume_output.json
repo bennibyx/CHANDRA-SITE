@@ -1,0 +1,90 @@
+{
+  "module": "ice_volume_estimation",
+  "generated_at": "2026-07-08T14:09:36.762885",
+  "model_params": {
+    "epsilon_ice": 3.15,
+    "epsilon_dry": 2.7,
+    "f_ice_low": 0.005,
+    "f_ice_high": 0.056,
+    "depth_m": 5.0,
+    "min_robust_volume_m3": 100.0
+  },
+  "deposits": [
+    {
+      "id": 1,
+      "centroid": [
+        -87.13,
+        77.8
+      ],
+      "confidence": 0.81,
+      "area_m2": 480000,
+      "cpr_mean": 0.62,
+      "estimated_volume_m3": 12000.0,
+      "estimated_depth_m": 5.0,
+      "volume_low_m3": 12000.0,
+      "volume_high_m3": 134400.0,
+      "ice_fraction_range": "0.5% to 5.6% (LCROSS literature)",
+      "epsilon_measured": 2.81,
+      "dop_mean": 0.38,
+      "robust_go": true,
+      "robustness_flag": "Robust GO \u2014 holds at conservative estimate"
+    },
+    {
+      "id": 2,
+      "centroid": [
+        -87.09,
+        78.05
+      ],
+      "confidence": 0.68,
+      "area_m2": 125000,
+      "cpr_mean": 0.55,
+      "estimated_volume_m3": 3125.0,
+      "estimated_depth_m": 5.0,
+      "volume_low_m3": 3125.0,
+      "volume_high_m3": 35000.0,
+      "ice_fraction_range": "0.5% to 5.6% (LCROSS literature)",
+      "epsilon_measured": 2.775,
+      "dop_mean": 0.31,
+      "robust_go": true,
+      "robustness_flag": "Robust GO \u2014 holds at conservative estimate"
+    },
+    {
+      "id": 3,
+      "centroid": [
+        -87.21,
+        77.55
+      ],
+      "confidence": 0.74,
+      "area_m2": 32000,
+      "cpr_mean": 0.71,
+      "estimated_volume_m3": 800.0,
+      "estimated_depth_m": 5.0,
+      "volume_low_m3": 800.0,
+      "volume_high_m3": 8960.0,
+      "ice_fraction_range": "0.5% to 5.6% (LCROSS literature)",
+      "epsilon_measured": 2.855,
+      "dop_mean": 0.44,
+      "robust_go": true,
+      "robustness_flag": "Robust GO \u2014 holds at conservative estimate"
+    },
+    {
+      "id": 4,
+      "centroid": [
+        -87.17,
+        78.2
+      ],
+      "confidence": 0.52,
+      "area_m2": 8500,
+      "cpr_mean": 0.48,
+      "estimated_volume_m3": 212.5,
+      "estimated_depth_m": 5.0,
+      "volume_low_m3": 212.5,
+      "volume_high_m3": 2380.0,
+      "ice_fraction_range": "0.5% to 5.6% (LCROSS literature)",
+      "epsilon_measured": 2.74,
+      "dop_mean": 0.28,
+      "robust_go": true,
+      "robustness_flag": "Robust GO \u2014 holds at conservative estimate"
+    }
+  ]
+}
